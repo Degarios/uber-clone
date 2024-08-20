@@ -15,7 +15,7 @@ const NavigateCard = () => {
 
   return (
     <SafeAreaView style={ tw`bg-white flex-1` }>
-      <Text style={tw`text-center py-5 text-xl`}>Good Morning, Mike</Text>
+      <Text style={tw`text-center py-5 text-xl`}>Good Morning, User</Text>
       <View style={tw`border-t border-gray-300 flex-shrink`}>
         <View>
             <GooglePlacesAutocomplete 
